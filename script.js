@@ -6,6 +6,6 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     img.src = "./assets/profile-light.png"
   } else {
-    img.src = "./assets/Profile.png"
+    img.src = "./assets/profile.png"
   }
 }
