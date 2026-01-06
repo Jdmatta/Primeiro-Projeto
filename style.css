@@ -24,6 +24,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
 }
 
 body * {
@@ -128,4 +129,14 @@ footer {
   margin: 24px 0;
   font-size: 14px;
   color: var(--font-color, 0.6);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
